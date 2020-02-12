@@ -20,6 +20,10 @@ eureka:
       
 zuul:
   retryable: true
+  routes:
+    item-service: /item-service/**
+    user-service: /user-service/**
+    order-service: /order-service/**
 
 ribbon:
   connectTimeout: 1000
