@@ -40,6 +40,3 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 500
-            
-zuul:
-  sensitive-headers:
